@@ -1,0 +1,251 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+ARGFIELDWIDTH	getargs.c	44;"	d	file:
+AddItem	lnlist.c	/^void AddItem(Data_T data_val, int idx, LnList **listHead)$/;"	f
+AddNSortItem	lnlist.c	/^void AddNSortItem(Data_T data_val, int idx, LnList **listHead)$/;"	f
+BT_ReadMatrix	listutil.c	/^void BT_ReadMatrix(double **matrix, char *inputfile, int nRecord, int nFeats)$/;"	f
+Check_New_Test_Point	find_max_point.c	/^static void Check_New_Test_Point( double x[], double *xmax, double min_displacement, double epsilon )$/;"	f	file:
+DEMOTE	ranking_measure.c	50;"	d	file:
+Data_T	listmergesort.c	/^typedef double Data_T ;$/;"	t	file:
+Data_T	lnlist.c	/^typedef double Data_T ;$/;"	t	file:
+DeleteItemFromSortedList	lnlist.c	/^void DeleteItemFromSortedList (Data_T data_val, LnList **listHead)$/;"	f
+EstiLNStrength	listutil.c	/^void EstiLNStrength(int ngroups, double **matrix, int nfeats, double *beta, char *outputfile) {$/;"	f
+FALSE	linesearch.c	34;"	d	file:
+FREE_ARG	nrutil.c	294;"	d	file:
+FREE_ARG	nrutil.c	8;"	d	file:
+FreeLnList	lnlist.c	/^void FreeLnList(LnList *ptr)$/;"	f
+GRID_SIZE	linesearch.c	26;"	d	file:
+GRID_SIZE_S	linesearch.c	27;"	d	file:
+GenericNode	listsort.c	/^struct GenericNode { GenericNode *next; };$/;"	s	file:
+GenericNode	listsort.c	/^typedef struct GenericNode GenericNode;$/;"	t	file:
+GetNList	listutil.c	/^int GetNList(double **matrix, int nRecord)$/;"	f
+GetUniqueList	listutil.c	/^int GetUniqueList( double **matrix, int *qstart, int nRecord, int nlist, int nvars)$/;"	f
+HeapSort	ranking_measure.c	64;"	d	file:
+HowTo	listutil.c	/^void HowTo()$/;"	f
+ILOG2	ranking_measure.c	10;"	d	file:
+Idcg	ranking_measure.c	/^static double	**Idcg;$/;"	v	file:
+Indep_LineSearch	linesearch.c	/^double Indep_LineSearch( feat_data_s *tr_feat, int maxiter, double *beta, char *parafile)$/;"	f
+Indep_LineSearch_s	linesearch.c	/^double Indep_LineSearch_s( feat_data_s *tr_feat, int maxiter, double *beta, char *parafile)$/;"	f
+InitList	lnlist.c	/^void InitList (LnList **listHead)$/;"	f
+InverseNodeComp	lnlist.c	/^int InverseNodeComp(void *a, void *b)$/;"	f
+Left_Interior_Point	find_max_point.c	/^static void Left_Interior_Point( feat_data_s *tr_feat, double *wgt , int n_curr_pos, double x[], double y[] )$/;"	f	file:
+ListLen	lnlist.c	/^int ListLen (LnList *listHead)$/;"	f
+LnList	lnlist.c	/^} LnList ;$/;"	t	file:
+MAX	find_max_point.c	18;"	d	file:
+MAX	linesearch.c	23;"	d	file:
+MAX	ranking_measure.c	15;"	d	file:
+MAXLINELENGTH	getargs.c	45;"	d	file:
+MAX_FIELD	linesearch_drvr.c	23;"	d	file:
+MIN	find_max_point.c	17;"	d	file:
+MIN	linesearch.c	22;"	d	file:
+MIN	ranking_measure.c	14;"	d	file:
+MakeSeconds	time_check.c	/^double MakeSeconds (struct timeval const *s, struct timeval const *e)$/;"	f
+NR_END	nrutil.c	293;"	d	file:
+NR_END	nrutil.c	7;"	d	file:
+NUM_TOP	linesearch.c	37;"	d	file:
+New_Test_Point_Ex	find_max_point.c	/^static double New_Test_Point_Ex( double x[], double y[], double a, double b, double min_displacement, double cut_off_scale_factor ) $/;"	f	file:
+NodeComp	lnlist.c	/^int NodeComp(void *a, void *b)$/;"	f
+P2free	Smemory.c	/^void P2free (char **dptr)$/;"	f
+Parabolic_Maximum	find_max_point.c	/^static int Parabolic_Maximum( double x[], double y[], double *xmax) $/;"	f	file:
+Parabolic_Maximum_Ex	find_max_point.c	/^static double Parabolic_Maximum_Ex( double x[], double y[], double cut_off_scale_factor ) $/;"	f	file:
+ReadBeta	listutil.c	/^void ReadBeta(double beta[], int nFeats, char parafile[])$/;"	f
+Recog_Test	ranking_measure.c	/^void Recog_Test( feat_data_s *tr_feat, double *wgt, char *outfile)$/;"	f
+Right_Interior_Point	find_max_point.c	/^static void Right_Interior_Point( feat_data_s *tr_feat, double *wgt , int n_curr_pos, double x[], double y[] )$/;"	f	file:
+Scubic	Smemory.c	/^void ***Scubic(size_t nitem0, size_t nitem1, size_t nitem2, size_t size)$/;"	f
+ScubicChar	Smemory.c	/^char*** ScubicChar(size_t nitem0, size_t nitem1, size_t nitem2)$/;"	f
+ScubicDouble	Smemory.c	/^double*** ScubicDouble(size_t nitem0, size_t nitem1, size_t nitem2)$/;"	f
+ScubicFloat	Smemory.c	/^float*** ScubicFloat(size_t nitem0, size_t nitem1, size_t nitem2)$/;"	f
+ScubicInt	Smemory.c	/^int*** ScubicInt(size_t nitem0, size_t nitem1, size_t nitem2)$/;"	f
+ScubicShort	Smemory.c	/^short*** ScubicShort(size_t nitem0, size_t nitem1, size_t nitem2)$/;"	f
+ScubicUchar	Smemory.c	/^uchar*** ScubicUchar(size_t nitem0, size_t nitem1, size_t nitem2)$/;"	f
+ScubicUint	Smemory.c	/^uint*** ScubicUint(size_t nitem0, size_t nitem1, size_t nitem2)$/;"	f
+ScubicUshort	Smemory.c	/^ushort*** ScubicUshort(size_t nitem0, size_t nitem1, size_t nitem2)$/;"	f
+Sgetargs	getargs.c	/^Sgetargs(int argc, char **argv,...)$/;"	f
+Smatrix	Smemory.c	/^void **Smatrix(size_t nitem0, size_t nitem1, size_t size)$/;"	f
+SmatrixChar	Smemory.c	/^char** SmatrixChar(size_t nitem0, size_t nitem1)$/;"	f
+SmatrixDouble	Smemory.c	/^double** SmatrixDouble(size_t nitem0, size_t nitem1)$/;"	f
+SmatrixFloat	Smemory.c	/^float** SmatrixFloat(size_t nitem0, size_t nitem1)$/;"	f
+SmatrixInt	Smemory.c	/^int** SmatrixInt(size_t nitem0, size_t nitem1)$/;"	f
+SmatrixShort	Smemory.c	/^short** SmatrixShort(size_t nitem0, size_t nitem1)$/;"	f
+SmatrixUchar	Smemory.c	/^uchar** SmatrixUchar(size_t nitem0, size_t nitem1)$/;"	f
+SmatrixUint	Smemory.c	/^uint** SmatrixUint(size_t nitem0, size_t nitem1)$/;"	f
+SmatrixUshort	Smemory.c	/^ushort** SmatrixUshort(size_t nitem0, size_t nitem1)$/;"	f
+Sort	listsort.c	/^void Sort(void ** pList, int (*comp) (void *, void *))$/;"	f
+Spanic	getargs.c	/^Spanic(char *fmt,...)$/;"	f
+Sperror	getargs.c	/^Sperror(char *fmt,...)$/;"	f
+Stopping_Rule	find_max_point.c	/^static int Stopping_Rule(double x0, double x1, double tolerance)$/;"	f	file:
+Stopping_Rule_Parabolic	find_max_point.c	/^static int Stopping_Rule_Parabolic(double x[], double tolerance)$/;"	f	file:
+Svector	Smemory.c	/^void *Svector(size_t nitem, size_t size)$/;"	f
+SvectorChar	Smemory.c	/^char* SvectorChar(size_t nitem)$/;"	f
+SvectorDouble	Smemory.c	/^double* SvectorDouble(size_t nitem)$/;"	f
+SvectorFloat	Smemory.c	/^float* SvectorFloat(size_t nitem)$/;"	f
+SvectorInt	Smemory.c	/^int* SvectorInt(size_t nitem)$/;"	f
+SvectorShort	Smemory.c	/^short* SvectorShort(size_t nitem)$/;"	f
+SvectorUchar	Smemory.c	/^uchar* SvectorUchar(size_t nitem)$/;"	f
+SvectorUint	Smemory.c	/^uint* SvectorUint(size_t nitem)$/;"	f
+SvectorUshort	Smemory.c	/^ushort* SvectorUshort(size_t nitem)$/;"	f
+TRUE	linesearch.c	33;"	d	file:
+TotalCPUTime	time_check.c	/^static float TotalCPUTime, TotalElapsedTime;$/;"	v	file:
+TotalElapsedTime	time_check.c	/^static float TotalCPUTime, TotalElapsedTime;$/;"	v	file:
+WriteBeta	listutil.c	/^void WriteBeta(double beta[], int nFeats, char parafile[])$/;"	f
+_Fopen	Smemory.c	/^FILE * _Fopen (char const *file, char const *mode, char const *srcfile, int srcline)$/;"	f
+__DATE__	find_max_point.c	12;"	d	file:
+__DATE__	linesearch.c	17;"	d	file:
+__DATE__	linesearch_drvr.c	15;"	d	file:
+__DATE__	listutil.c	8;"	d	file:
+__TIME__	find_max_point.c	13;"	d	file:
+__TIME__	linesearch.c	18;"	d	file:
+__TIME__	linesearch_drvr.c	16;"	d	file:
+__TIME__	listutil.c	9;"	d	file:
+_lnlist_	lnlist.c	/^typedef struct _lnlist_ {$/;"	s	file:
+alloc2d	Smemory.c	/^void	**alloc2d(size_t dim1, size_t dim2, size_t size)$/;"	f
+alpha	find_max_point.c	/^static const double alpha = 0.5 * (3.0 - sqrt5);$/;"	v	file:
+calc_ranking_measure	ranking_measure.c	/^int calc_ranking_measure( feat_data_s *tr_feat, double *wgt)$/;"	f
+cg	ranking_measure.c	/^static double	*cg;$/;"	v	file:
+cg_sum	ranking_measure.c	/^static double	*cg_sum;$/;"	v	file:
+checkHelp	getargs.c	/^int checkHelp(char *flag, helpl_type *helpl) $/;"	f
+child	ranking_measure.c	/^static int		g_idx, child, parent;$/;"	v	file:
+convert_matrix	nrutil.c	/^float **convert_matrix(a,nrl,nrh,ncl,nch)$/;"	f
+convert_matrix	nrutil.c	/^float **convert_matrix(float *a, long nrl, long nrh, long ncl, long nch)$/;"	f
+cpu_elapsed_time	time_check.c	/^float cpu_elapsed_time(void)$/;"	f
+cut_tail	listutil.c	/^void cut_tail(char *str)$/;"	f
+cvector	nrutil.c	/^unsigned char *cvector(long nl, long nh)$/;"	f
+cvector	nrutil.c	/^unsigned char *cvector(nl,nh)$/;"	f
+data_val	lnlist.c	/^	Data_T           data_val ;$/;"	m	struct:_lnlist_	file:
+dcg	ranking_measure.c	/^static double	*dcg;$/;"	v	file:
+dcg_sum	ranking_measure.c	/^static double	*dcg_sum;$/;"	v	file:
+dmatrix	nrutil.c	/^double **dmatrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+dmatrix	nrutil.c	/^double **dmatrix(nrl,nrh,ncl,nch)$/;"	f
+dvector	nrutil.c	/^double *dvector(long nl, long nh)$/;"	f
+dvector	nrutil.c	/^double *dvector(nl,nh)$/;"	f
+e_start	time_check.c	/^static struct timeval e_start, e_stop;$/;"	v	file:
+e_stop	time_check.c	/^static struct timeval e_start, e_stop;$/;"	v	file:
+f3tensor	nrutil.c	/^float ***f3tensor(long nrl, long nrh, long ncl, long nch, long ndl, long ndh)$/;"	f
+f3tensor	nrutil.c	/^float ***f3tensor(nrl,nrh,ncl,nch,ndl,ndh)$/;"	f
+fCnvgTh	linesearch.c	35;"	d	file:
+fil	getargs.c	/^  FILE** fil;	\/* the pointer to the default file and returned file *\/$/;"	m	struct:filel_struct	file:
+file_size	listutil.c	/^void file_size (char *file_name, int *width, int *height)$/;"	f
+filel_struct	getargs.c	/^typedef struct filel_struct {$/;"	s	file:
+filel_type	getargs.c	/^} filel_type;$/;"	t	file:
+flg	getargs.c	/^  char*  flg;	\/* the generic file type *\/$/;"	m	struct:filel_struct	file:
+flg	getargs.c	/^  char* flg;	\/* a help flag *\/$/;"	m	struct:helpl_struct	file:
+flg	getargs.c	/^  char* flg;	\/* the optional command line argument *\/$/;"	m	struct:optl_struct	file:
+fmt	getargs.c	/^  char* fmt;	\/* the printf format of the value of the option *\/$/;"	m	struct:optl_struct	file:
+fprintfptr	getargs.c	/^void fprintfptr(FILE *stream, char *fmt, char typ, void *val) $/;"	f
+free2d	Smemory.c	/^int 	free2d(void **p)$/;"	f
+free_convert_matrix	nrutil.c	/^void free_convert_matrix(b,nrl,nrh,ncl,nch)$/;"	f
+free_convert_matrix	nrutil.c	/^void free_convert_matrix(float **b, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_cvector	nrutil.c	/^void free_cvector(unsigned char *v, long nl, long nh)$/;"	f
+free_cvector	nrutil.c	/^void free_cvector(v,nl,nh)$/;"	f
+free_dmatrix	nrutil.c	/^void free_dmatrix(double **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_dmatrix	nrutil.c	/^void free_dmatrix(m,nrl,nrh,ncl,nch)$/;"	f
+free_dvector	nrutil.c	/^void free_dvector(double *v, long nl, long nh)$/;"	f
+free_dvector	nrutil.c	/^void free_dvector(v,nl,nh)$/;"	f
+free_f3tensor	nrutil.c	/^void free_f3tensor(float ***t, long nrl, long nrh, long ncl, long nch, long ndl, long ndh)$/;"	f
+free_f3tensor	nrutil.c	/^void free_f3tensor(t,nrl,nrh,ncl,nch,ndl,ndh)$/;"	f
+free_imatrix	nrutil.c	/^void free_imatrix(int **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_imatrix	nrutil.c	/^void free_imatrix(m,nrl,nrh,ncl,nch)$/;"	f
+free_ivector	nrutil.c	/^void free_ivector(int *v, long nl, long nh)$/;"	f
+free_ivector	nrutil.c	/^void free_ivector(v,nl,nh)$/;"	f
+free_log_table	log_add.c	/^int 	free_log_table(void)$/;"	f
+free_lvector	nrutil.c	/^void free_lvector(unsigned long *v, long nl, long nh)$/;"	f
+free_lvector	nrutil.c	/^void free_lvector(v,nl,nh)$/;"	f
+free_matrix	nrutil.c	/^void free_matrix(float **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_matrix	nrutil.c	/^void free_matrix(m,nrl,nrh,ncl,nch)$/;"	f
+free_ranking_measure	ranking_measure.c	/^int free_ranking_measure( feat_data_s *tr_feat)$/;"	f
+free_submatrix	nrutil.c	/^void free_submatrix(b,nrl,nrh,ncl,nch)$/;"	f
+free_submatrix	nrutil.c	/^void free_submatrix(float **b, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_vector	nrutil.c	/^void free_vector(float *v, long nl, long nh)$/;"	f
+free_vector	nrutil.c	/^void free_vector(v,nl,nh)$/;"	f
+g_idx	ranking_measure.c	/^static int		g_idx, child, parent;$/;"	v	file:
+g_nCnt	ranking_measure.c	/^static int		g_nCnt;$/;"	v	file:
+get_ranking_measure	ranking_measure.c	/^double get_ranking_measure( int nType , int nPos)$/;"	f
+helpl_struct	getargs.c	/^typedef struct helpl_struct {$/;"	s	file:
+helpl_type	getargs.c	/^} helpl_type;$/;"	t	file:
+idx	lnlist.c	/^	int              idx      ;$/;"	m	struct:_lnlist_	file:
+imatrix	nrutil.c	/^int **imatrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+imatrix	nrutil.c	/^int **imatrix(nrl,nrh,ncl,nch)$/;"	f
+in_idx	ranking_measure.c	/^static int		*in_idx;$/;"	v	file:
+init_ranking_measure	ranking_measure.c	/^int init_ranking_measure( feat_data_s *tr_feat)$/;"	f
+item	ranking_measure.c	/^static double	item;$/;"	v	file:
+itemwid	ranking_measure.c	/^static int		itemwid;$/;"	v	file:
+ivector	nrutil.c	/^int *ivector(long nl, long nh)$/;"	f
+ivector	nrutil.c	/^int *ivector(nl,nh)$/;"	f
+k	listmergesort.c	/^int    k[10] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 } ;$/;"	v
+lambda	find_max_point.c	/^static double	lambda = 0.5 * ( sqrt5 - 1.0 );$/;"	v	file:
+log_addition	log_add.c	/^double  log_addition( double x, double y )$/;"	f
+log_tbl	log_add.c	/^static double	*log_tbl = NULL;$/;"	v	file:
+lvector	nrutil.c	/^unsigned long *lvector(long nl, long nh)$/;"	f
+lvector	nrutil.c	/^unsigned long *lvector(nl,nh)$/;"	f
+main	linesearch_drvr.c	/^int main (int argc, char *argv[])$/;"	f
+main	listmergesort.c	/^main() {$/;"	f
+main	lnlist.c	/^main()$/;"	f
+main	log_add.c	/^int main(int argc, char **argv)$/;"	f
+make_log_table	log_add.c	/^int     make_log_table(void)$/;"	f
+map	ranking_measure.c	/^static double	*map;$/;"	v	file:
+map_sum	ranking_measure.c	/^static double	*map_sum;$/;"	v	file:
+matrix	nrutil.c	/^float **matrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+matrix	nrutil.c	/^float **matrix(nrl,nrh,ncl,nch)$/;"	f
+max_search_golden_section	find_max_point.c	/^double max_search_golden_section( feat_data_s *tr_feat, double *wgt, int n_curr_pos, double a, double b )$/;"	f
+max_search_parabolic_extrapolation	find_max_point.c	/^int max_search_parabolic_extrapolation( feat_data_s *tr_feat, double *wgt, int n_curr_pos, double *x, double *fx , double bound_min, double bound_max)$/;"	f
+max_search_parabolic_interpolation	find_max_point.c	/^int max_search_parabolic_interpolation( feat_data_s *tr_feat, double *wgt, int n_curr_pos, double *x0, double *fx0)$/;"	f
+merge_sort	listmergesort.c	/^void merge_sort(Data_T data[], int first, int last) $/;"	f
+merge_sortidx	listmergesort.c	/^void merge_sortidx(Data_T data[], int dataidx[], int first, int last) $/;"	f
+mod	getargs.c	/^  char*  mod;	\/* the mode in which the file is to be opened *\/$/;"	m	struct:filel_struct	file:
+mrr_sum	ranking_measure.c	/^static double	*mrr_sum;$/;"	v	file:
+msg	getargs.c	/^  char*  msg;	\/* a message explaining the usage of this file *\/$/;"	m	struct:filel_struct	file:
+msg	getargs.c	/^  char* msg;	\/* a message explaining the usage of this option *\/$/;"	m	struct:optl_struct	file:
+mu	find_max_point.c	/^static double	mu = 0.5 * (3.0 - sqrt5 );$/;"	v	file:
+nam	getargs.c	/^  char** nam;	\/* the pointer to the name of the returned file *\/$/;"	m	struct:filel_struct	file:
+ndcg	ranking_measure.c	/^static double	*ndcg;$/;"	v	file:
+ndcg_sum	ranking_measure.c	/^static double	*ndcg_sum;$/;"	v	file:
+next	listsort.c	/^struct GenericNode { GenericNode *next; };$/;"	m	struct:GenericNode	file:
+next	lnlist.c	/^	struct _lnlist_ *next     ;$/;"	m	struct:_lnlist_	file:
+nrerror	nrutil.c	/^void nrerror(char error_text[])$/;"	f
+nrerror	nrutil.c	/^void nrerror(error_text)$/;"	f
+num_querry	ranking_measure.c	/^static int		num_querry;$/;"	v	file:
+nxt	getargs.c	/^  struct filel_struct* nxt;$/;"	m	struct:filel_struct	file:
+nxt	getargs.c	/^  struct helpl_struct* nxt;$/;"	m	struct:helpl_struct	file:
+nxt	getargs.c	/^  struct optl_struct* nxt;$/;"	m	struct:optl_struct	file:
+optl_struct	getargs.c	/^typedef struct optl_struct {$/;"	s	file:
+optl_type	getargs.c	/^} optl_type;$/;"	t	file:
+out_idx	ranking_measure.c	/^static int		*out_idx;$/;"	v	file:
+output_value	ranking_measure.c	/^static double   *output_value;$/;"	v	file:
+parent	ranking_measure.c	/^static int		g_idx, child, parent;$/;"	v	file:
+parse_measure_type	linesearch_drvr.c	/^static int parse_measure_type (char *mtype , feat_data_s *tr_feat)$/;"	f	file:
+parse_trans_type	linesearch_drvr.c	/^static int parse_trans_type (char *trans_type , feat_data_s *tr_feat)$/;"	f	file:
+prec	ranking_measure.c	/^static double	*prec;$/;"	v	file:
+prec_idx	ranking_measure.c	/^static int		**prec_idx;$/;"	v	file:
+prec_sum	ranking_measure.c	/^static double	*prec_sum;$/;"	v	file:
+qstart	ranking_measure.c	/^static int		*qstart;$/;"	v	file:
+relevance	ranking_measure.c	/^static double	**relevance;$/;"	v	file:
+sort_matrix	util.c	/^void sort_matrix(double **in_matrix, int height, int width) $/;"	f
+sprintfptr	getargs.c	/^void sprintfptr(char *string, char *fmt, char typ, void *val) $/;"	f
+sscanfptr	getargs.c	/^void sscanfptr(char *string, char *fmt, char typ, void *val) $/;"	f
+start	time_check.c	/^static struct rusage start, stop;$/;"	v	file:
+stop	time_check.c	/^static struct rusage start, stop;$/;"	v	file:
+submatrix	nrutil.c	/^float **submatrix(a,oldrl,oldrh,oldcl,oldch,newrl,newcl)$/;"	f
+submatrix	nrutil.c	/^float **submatrix(float **a, long oldrl, long oldrh, long oldcl, long oldch, long newrl, long newcl)$/;"	f
+timing_init	time_check.c	/^void timing_init ( void )$/;"	f
+timing_start	time_check.c	/^void timing_start ( void )$/;"	f
+timing_stop	time_check.c	/^void timing_stop (void)$/;"	f
+toScore	ranking_measure.c	/^static double   *toScore;$/;"	v	file:
+typ	getargs.c	/^  char  typ;    \/* the scanf format of the value of the option *\/$/;"	m	struct:optl_struct	file:
+uchar	Smemory.c	12;"	d	file:
+uchar	Smemory.c	13;"	d	file:
+uint	Smemory.c	16;"	d	file:
+uint	Smemory.c	17;"	d	file:
+ulong	Smemory.c	18;"	d	file:
+ulong	Smemory.c	19;"	d	file:
+user_elapsed_time	time_check.c	/^float user_elapsed_time(void)$/;"	f
+ushort	Smemory.c	14;"	d	file:
+ushort	Smemory.c	15;"	d	file:
+val	getargs.c	/^  void* val;	\/* a pointer to the storage location of the default value *\/$/;"	m	struct:optl_struct	file:
+vector	nrutil.c	/^float *vector(long nl, long nh)$/;"	f
+vector	nrutil.c	/^float *vector(nl,nh)$/;"	f
+x	listmergesort.c	/^Data_T x[10] = { 4, 3, 2, 1, 1, 1, 2, 3, 4, 3 } ;$/;"	v
+y	listmergesort.c	/^Data_T y[10] = { 4, 3, 2, 1, 1, 1, 2, 3, 4, 3 } ;$/;"	v
